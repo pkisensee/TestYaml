@@ -1,2 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="TestYaml.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TestFiles\a_torture.yaml">
+      <Filter>TestFiles</Filter>
+    </None>
+    <None Include="TestFiles\array_line.yaml">
+      <Filter>TestFiles</Filter>
+    </None>
+    <None Include="TestFiles\array_multi_line.yaml">
+      <Filter>TestFiles</Filter>
+    </None>
+    <None Include="TestFiles\invoice.yaml">
+      <Filter>TestFiles</Filter>
+    </None>
+    <None Include="TestFiles\n.yaml">
+      <Filter>TestFiles</Filter>
+    </None>
+    <None Include="TestFiles\nulls.yaml">
+      <Filter>TestFiles</Filter>
+    </None>
+    <None Include="TestFiles\production.yaml">
+      <Filter>TestFiles</Filter>
+    </None>
+    <None Include="TestFiles\sequence_styles.yaml">
+      <Filter>TestFiles</Filter>
+    </None>
+    <None Include="TestFiles\tags.yaml">
+      <Filter>TestFiles</Filter>
+    </None>
+    <None Include="TestFiles\v.yaml">
+      <Filter>TestFiles</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="TestFiles">
+      <UniqueIdentifier>{2219d1a4-f139-46de-ab6a-1ab0eb01b277}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

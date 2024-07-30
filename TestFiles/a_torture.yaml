@@ -1,0 +1,36 @@
+
+%YAML 1.2
+# YAML torture test
+urls: {url: https://tantalon.com}
+    quantity   :    (4^@~`)
+
+decimal: [ +12,345 ]
+
+spec:
+  replicas: 1
+  inverse: -18.33
+  selector:
+      matchLabels:
+        -  app: gceme # this comment should be ignored
+        -  role: backend
+
+# empty lines should be ignored
+        # including lines with leading spaces
+
+        -  env: production
+  sexagecimal: [3:25:45, 14:18:821, 3xx1]
+  sexagecimal: 20:30.15
+fixed: 1,230.15
+negative infinity: -.inf
+
+product    :
+  - sku        : BL394D"
+    description: "Basketball+'{Jones}'"
+
+pages:
+  - act   : idx
+    title : Welcome
+    html  : public/welcome.phtml
+  - act   : reg
+    title : Register
+    html  : public/register.phtml
